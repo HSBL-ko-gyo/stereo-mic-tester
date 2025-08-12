@@ -101,6 +101,28 @@
     .status-item.ok { border-color: var(--accent); color: var(--accent); }
     .status-item.warn { border-color: var(--warn); color: var(--warn); }
     .status-item.err { border-color: var(--err); color: var(--err); }
+    @media (max-width: 768px) {
+      .scope-container { grid-template-columns: 1fr; }
+    }
+    
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      padding: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 12px;
+      color: #888;
+    }
+    
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    
+    .footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -139,6 +161,11 @@
       <div class="status-item" id="statusCh">チャンネル: -</div>
       <div class="status-item" id="statusStereo">ステレオ: -</div>
       <div class="status-item" id="statusState">停止中</div>
+    </div>
+        <div class="footer">
+      <a href="https://github.com/HSBL-ko-gyo/stereo-mic-tester" target="_blank">GitHub Repository</a>
+      |
+      <a href="https://sites.google.com/view/hsbl-industrial-hp/home" target="_blank">ハシビロ工業</a>
     </div>
   </div>
 
