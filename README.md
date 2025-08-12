@@ -3,7 +3,7 @@ Real-time stereo microphone testing tool with oscilloscope-style waveform displa
 
 ## ステレオマイク・オシロスコープ
 
-USB接続ステレオマイクの出荷テストなどに便利なWEBツール。
+USB接続ステレオマイクの出荷テストなどに便利な[WEBツール](https://hsbl-ko-gyo.github.io/stereo-mic-tester/)。
 
 ## 機能
 
